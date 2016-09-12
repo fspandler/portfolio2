@@ -20,23 +20,32 @@ body {  /*Needed so the header
 
 h1 {
 	text-align: center;
-	color: blue;
+	color: white;
+	border: 5px solid white;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 header {
 	float: left;
 	width: 45%;
 	min-height: 120%;
-	background-color: red;
+	background-color: black;
+	background: url(images/1.jpg) center;
 	position: fixed;
 }
 main {
 	float: right;
 	width: 55%;
 	min-height: 100%;
-	background-color: beige;
 }
+
+/*NAVIGATION*/
 
 nav ul li{
 	display: inline;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
 }
