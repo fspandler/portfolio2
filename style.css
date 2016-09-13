@@ -60,7 +60,7 @@ nav ul li{
 }
 nav ul li a {
 	text-decoration: none;
-	color: #007acc;
+	color: black;
 	position:relative;
 	font-size: 1.5em;
 	border-bottom: 1px solid #007acc;
@@ -89,7 +89,7 @@ h2 {
 	margin-top: 0;
 }
 
-p {
+p, address{
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 1.2em;
 }
@@ -101,12 +101,21 @@ section {
 	background-color: rgba(0, 122, 204, 0.05);
 }
 /*Footer*/
+address {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 i {
 	font-size: 3em;
+	text-color: green;
 }
-
+i:hover {
+	color: #007acc;
+}
 a {
 	text-decoration: none;
+	color: #007acc;
 }
 
 /*my photo*/
