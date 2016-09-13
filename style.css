@@ -100,6 +100,14 @@ section {
 .bgcolor{
 	background-color: rgba(0, 122, 204, 0.05);
 }
+/*Footer*/
+i {
+	font-size: 3em;
+}
+
+a {
+	text-decoration: none;
+}
 
 /*my photo*/
 .frank {
