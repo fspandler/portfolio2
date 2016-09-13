@@ -26,7 +26,7 @@ h1 {
 	text-shadow: 2px 2px 8px #000000;
 	font-size: 5em;
 	margin-top: 30%;
-	font-family: Helvetica, Arial;
+	font-family: 'Nova Square', Arial;
 }
 
 header {
@@ -53,6 +53,7 @@ section{
 nav ul{
 padding-top: 5px;
 padding-left: 10%;
+margin-bottom: 32px;
 }
 nav ul li{
 	display: inline;
@@ -62,11 +63,11 @@ nav ul li a {
 	color: #007acc;
 	position:relative;
 	font-size: 1.5em;
-	border: 1px solid #007acc;
-	padding: 7px;
+	border-bottom: 1px solid #007acc;
+	padding: 4px;
 	margin-right: 10px;
 	margin-top: 5px;
-	font-family: "Times";
+	font-family: 'Ubuntu Mono', monospace;
 	max-width: 20%;
 }
 
@@ -83,34 +84,26 @@ nav ul li a:hover {
 /*Headings & Text*/
 h2 {
 	color: #007acc;
-	font-family: Arial, sans-serif;
+	font-family: 'Nova Square', Arial, sans-serif;
 	font-size: 3em;
 	margin-top: 0;
 }
 
 p {
-	font-family: "Times";
+	font-family: 'Ubuntu Mono', monospace;
 	font-size: 1.2em;
 }
 section {
-	background-color: rgba(0, 122, 204, 0.05);
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
-section:hover {
-		 background-color: rgba(0, 122, 204, 0.15);
-        -webkit-transition: background-color 500ms linear;
-        -moz-transition: background-color 500ms linear;
-        -o-transition: background-color 500ms linear;
-        -ms-transition: background-color 500ms linear;
-        transition: background-color 500ms linear;
+.bgcolor{
+	background-color: rgba(0, 122, 204, 0.05);
 }
 
 /*my photo*/
 .frank {
-	text-align: center;
 }
 .frank img {
-	size: 2em;
-	border-radius: 100%;
+	width: 100%;
 }
