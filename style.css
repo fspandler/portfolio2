@@ -38,15 +38,21 @@ header {
 	background-size: cover;
 	position: fixed;
 }
+/*Main Content*/
 main {
 	float: right;
 	width: 55%;
 	min-height: 100%;
 }
+section{
+	padding-left: 10%;
+	padding-right: 30%;
+}
 
 /*NAVIGATION*/
 nav ul{
 padding-top: 5px;
+padding-left: 10%;
 }
 nav ul li{
 	display: inline;
@@ -60,7 +66,7 @@ nav ul li a {
 	padding: 7px;
 	margin-right: 10px;
 	margin-top: 5px;
-	font-family: "Arial";
+	font-family: "Times";
 	max-width: 20%;
 }
 
@@ -72,5 +78,39 @@ nav ul li a:hover {
         -o-transition: background-color 500ms linear;
         -ms-transition: background-color 500ms linear;
         transition: background-color 500ms linear;
+}
 
+/*Headings & Text*/
+h2 {
+	color: #007acc;
+	font-family: Arial, sans-serif;
+	font-size: 3em;
+	margin-top: 0;
+}
+
+p {
+	font-family: "Times";
+	font-size: 1.2em;
+}
+section {
+	background-color: rgba(0, 122, 204, 0.05);
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+section:hover {
+		 background-color: rgba(0, 122, 204, 0.15);
+        -webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 500ms linear;
+        -o-transition: background-color 500ms linear;
+        -ms-transition: background-color 500ms linear;
+        transition: background-color 500ms linear;
+}
+
+/*my photo*/
+.frank {
+	text-align: center;
+}
+.frank img {
+	size: 2em;
+	border-radius: 100%;
 }
