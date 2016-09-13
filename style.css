@@ -18,12 +18,12 @@ body {  /*Needed so the header
 	min-width: 100%;
 }
 
-h1 {
+h1, header h2 {
 	text-align: center;
 	color: white;
 	margin-left: 10%;
 	margin-right: 10%;
-	text-shadow: 2px 2px 8px #000000;
+	text-shadow: 2px 2px 1px #000000;
 	font-size: 5em;
 	margin-top: 30%;
 	font-family: 'Nova Square', Arial;
